@@ -1,0 +1,35 @@
+# Proprietary binaries and derived artifacts must never be committed
+*.exe
+*.dll
+*.sys
+*.eps
+*.msi
+*.cab
+*.bin
+*.str.txt
+*.il.txt
+*_il.txt
+ec_dump*
+selftest.txt
+
+# Dump output produced next to inputs
+/*.txt
+!README*.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build output
+build/
+dist/
